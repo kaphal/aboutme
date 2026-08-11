@@ -1,5 +1,17 @@
 * {
     background-color: #FCFFF2;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    height: 70px;
+}
+main {
+    min-height: fit-content;
+
+}
+footer {
+    text-align: center; 
 }
 #menu {
     background-color: #EB2E2E;
