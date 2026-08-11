@@ -1,14 +1,21 @@
-* {
+body {
     background-color: #FCFFF2;
-    display: flex;
-    flex-direction: column;
+    font-family: "Times New Roman";
 }
 header {
     height: 70px;
 }
 main {
-    min-height: fit-content;
-
+    height: auto;
+    width: fit-content;
+    padding: 1.5%;
+    position: relative;
+    background-color: cornsilk;
+    display:flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
 }
 footer {
     text-align: center; 
